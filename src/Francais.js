@@ -1,12 +1,12 @@
 import React from 'react';
-//import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 
 class Francais extends React.Component {
     render() {
         return (
-            <div fluid className="container2">
+            <Container fluid>
                 <p>Français</p>
-            </div>
+            </Container>
         )
     }
 }

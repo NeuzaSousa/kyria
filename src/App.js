@@ -15,22 +15,20 @@ import Contact from "./Contact";
 import Container from 'react-bootstrap/Container';
 
 
-
-
 class App extends React.Component {
   
   render() {
     return (
-      <div className="App">
+      <Container fluid className="container1">
 
-      <div id="flags">
-        <nav>
-            <NavLink to="/"><img src={EnglishImg} alt="English" /></NavLink>
-            <NavLink to="/deutsch"><img src={GermanImg} alt="Deutsch" /></NavLink>
-            <NavLink to="francais"><img src={FrenchImg} alt="Français" /></NavLink>
-            <NavLink to="portugues"><img src={PortugueseImg} alt="Portugues" /></NavLink>
-        </nav>
-      </div>
+        <div id="flags">
+          <nav>
+              <NavLink to="/"><img src={EnglishImg} alt="English" /></NavLink>
+              <NavLink to="/deutsch"><img src={GermanImg} alt="Deutsch" /></NavLink>
+              <NavLink to="francais"><img src={FrenchImg} alt="Français" /></NavLink>
+              <NavLink to="portugues"><img src={PortugueseImg} alt="Portugues" /></NavLink>
+          </nav>
+        </div>
 
         <Switch>
           <Route path="/" exact>
@@ -56,7 +54,7 @@ class App extends React.Component {
           </Route>
             {/*<Error404View />*/}
         </Switch>
-      </div>
+      </Container>
     );
   }
 }

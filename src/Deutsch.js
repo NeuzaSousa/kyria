@@ -1,12 +1,12 @@
 import React from 'react';
-//import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 
 class Deutsch extends React.Component {
     render() {
         return (
-            <div>
+            <Container fluid>
                 <p>Deutsch</p>
-            </div>
+            </Container>
         )
     }
 }

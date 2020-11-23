@@ -1,12 +1,12 @@
 import React from 'react';
-//import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 
 class TourEn extends React.Component {
     render() {
         return (
-            <div fluid className="container2">
+            <Container fluid>
                 <p>Tour</p>
-            </div>
+            </Container>
         )
     }
 }

@@ -12,9 +12,20 @@ body {
   height: 50px;
 }
 
-#container1 {
-  width: 1350px;
+.container1 {
+  width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container2 {
+  display: grid;
+  text-align: center;
+  width: 600px;
   background-color: white;
   margin: 0 auto;
 }
 
+Button {
+  width: 110px;
+}

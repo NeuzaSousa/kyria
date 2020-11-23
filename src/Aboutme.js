@@ -1,12 +1,12 @@
 import React from 'react';
-//import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 
 class Aboutme extends React.Component {
     render() {
         return (
-            <div>
+            <Container fluid>
                 <h1>About me</h1>
-            </div>
+            </Container>
         )
     }
 }
