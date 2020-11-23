@@ -7,6 +7,8 @@ import Portuguese from './pt.png';
 import Deutsch from './Deutsch';
 import Francais from './Francais';
 import Portugues from './Portugues';
+import Homeview from './Homeview';
+import { Switch, Route, NavLink } from "react-router-dom";
 
 
 
@@ -16,15 +18,31 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div id="flags">
-          <img src={English} alt="English" />
-          <img src={German} alt="Deutsch" />
-          <img src={French} alt="Français" />
-          <img src={Portuguese} alt="Portugues" />
-        </div>
-        <div id="container1">
-          <h1>Tour Guide Kyria Sobrinho</h1>
-        </div>
+
+      <div id="flags">
+        <nav>
+            <NavLink to="/"><img src={English} alt="English" /></NavLink>
+            <NavLink to="/deutsch"><img src={German} alt="Deutsch" /></NavLink>
+            <NavLink to="francais"><img src={French} alt="Français" /></NavLink>
+            <NavLink to="portugues"><img src={Portuguese} alt="Portugues" /></NavLink>
+        </nav>
+      </div>
+
+        <Switch>
+          <Route path="/" exact>
+            <Homeview />
+          </Route>
+          <Route path="/deutsch">
+            <Deutsch />
+          </Route>
+          <Route path="/francais">
+            <Francais />
+          </Route>
+          <Route path="/portugues">
+            <Portugues />
+          </Route>
+            {/*<Error404View />*/}
+        </Switch>
       </div>
     );
   }
