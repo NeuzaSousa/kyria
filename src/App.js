@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
 import English from './gb.png';
-import Deutsch from './de.png';
-import Français from './fr.png';
-import Portugues from './pt.png';
+import German from './de.png';
+import French from './fr.png';
+import Portuguese from './pt.png';
+import Deutsch from './Deutsch';
+import Francais from './Francais';
+import Portugues from './Portugues';
+
 
 
 
@@ -14,9 +18,9 @@ class App extends React.Component {
       <div className="App">
         <div id="flags">
           <img src={English} alt="English" />
-          <img src={Deutsch} alt="Deutsch" />
-          <img src={Français} alt="Français" />
-          <img src={Portugues} alt="Portugues" />
+          <img src={German} alt="Deutsch" />
+          <img src={French} alt="Français" />
+          <img src={Portuguese} alt="Portugues" />
         </div>
         <div id="container1">
           <h1>Tour Guide Kyria Sobrinho</h1>
