@@ -8,7 +8,10 @@ import Deutsch from './Deutsch';
 import Francais from './Francais';
 import Portugues from './Portugues';
 import Homeview from './Homeview';
+import Aboutme from './Aboutme';
 import { Switch, Route, NavLink } from "react-router-dom";
+import TourEn from "./TourEn";
+import Contact from "./Contact";
 
 
 
@@ -40,6 +43,15 @@ class App extends React.Component {
           </Route>
           <Route path="/portugues">
             <Portugues />
+          </Route>
+          <Route path="/aboutme">
+            <Aboutme />
+          </Route>
+          <Route path="/tour">
+            <TourEn />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
             {/*<Error404View />*/}
         </Switch>
