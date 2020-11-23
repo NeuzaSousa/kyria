@@ -1,7 +1,7 @@
 import React from 'react';
-import { Switch, Route, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-class Homeview extends React.Component {
+class English extends React.Component {
     render() {
         return (
             <div id="container1">
@@ -10,7 +10,7 @@ class Homeview extends React.Component {
                     <NavLink to="/aboutme"><button>About me</button></NavLink>
                     <NavLink to="/tour"><button>Tour</button></NavLink>
                     <NavLink to="/contact"><button>Contact</button></NavLink>
-                    <NavLink to="/aboutme"><button>About me</button></NavLink>
+                    <button>Blog</button>
                 </nav>
 
             </div>
@@ -18,4 +18,4 @@ class Homeview extends React.Component {
     }
 }
 
-export default Homeview;
+export default English;
