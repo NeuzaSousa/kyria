@@ -13,6 +13,10 @@ import { Switch, Route, NavLink } from "react-router-dom";
 import TourEn from "./TourEn";
 import Contact from "./Contact";
 import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 class App extends React.Component {
@@ -22,12 +26,10 @@ class App extends React.Component {
       <Container fluid className="container1">
 
         <div id="flags">
-          <nav>
-              <NavLink to="/"><img src={EnglishImg} alt="English" /></NavLink>
-              <NavLink to="/deutsch"><img src={GermanImg} alt="Deutsch" /></NavLink>
-              <NavLink to="francais"><img src={FrenchImg} alt="Français" /></NavLink>
-              <NavLink to="portugues"><img src={PortugueseImg} alt="Portugues" /></NavLink>
-          </nav>
+          <NavLink to="/"><img src={EnglishImg} alt="English" /></NavLink>
+          <NavLink to="/deutsch"><img src={GermanImg} alt="Deutsch" /></NavLink>
+          <NavLink to="francais"><img src={FrenchImg} alt="Français" /></NavLink>
+          <NavLink to="portugues"><img src={PortugueseImg} alt="Portugues" /></NavLink>
         </div>
 
         <Switch>
@@ -52,7 +54,7 @@ class App extends React.Component {
           <Route path="/contact">
             <Contact />
           </Route>
-            {/*<Error404View />*/}
+          {/*<Error404View />*/}
         </Switch>
       </Container>
     );
