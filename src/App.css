@@ -16,6 +16,10 @@ body {
   font-family: Yellowtail;
 }
 
+.container3 {
+  max-width: 1000px;
+}
+
 #flags{
   text-align: right;
 }

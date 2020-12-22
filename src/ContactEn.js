@@ -1,14 +1,14 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
-class Contact extends React.Component {
+class ContactEn extends React.Component {
     render() {
         return (
             <Container fluid>
-                <p>Contact</p>
+                <h1>Contact</h1>
             </Container>
         )
     }
 }
 
-export default Contact;
+export default ContactEn;

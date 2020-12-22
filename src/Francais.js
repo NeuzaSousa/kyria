@@ -19,17 +19,17 @@ class Francais extends React.Component {
                         <Row>
                             <Col>
                                 <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/aboutme" activeClassName="selected">À propos de moi</NavLink></button>
+                                    <button variant="outline-secondary" className="button"><NavLink to="/francais/aproposdemoi" activeClassName="selected">À propos de moi</NavLink></button>
                                 </Nav.Item>
                             </Col>
                             <Col> 
                                 <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/tour" activeClassName="selected">Tournée</NavLink></button>
+                                    <button variant="outline-secondary" className="button"><NavLink to="/francais/tournee" activeClassName="selected">Tournée</NavLink></button>
                                 </Nav.Item>
                             </Col>    
                             <Col>
                                 <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/contact" activeClassName="selected">Contact</NavLink></button>
+                                    <button variant="outline-secondary" className="button"><NavLink to="/francais/contactfr" activeClassName="selected">Contact</NavLink></button>
                                 </Nav.Item>
                             </Col>
                             <Col>

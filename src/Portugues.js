@@ -19,17 +19,17 @@ class Portugues extends React.Component {
                         <Row>
                             <Col>
                                 <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/aboutme" activeClassName="selected">Sobre mim</NavLink></button>
+                                    <button variant="outline-secondary" className="button"><NavLink to="/portugues/sobremim" activeClassName="selected">Sobre mim</NavLink></button>
                                 </Nav.Item>
                             </Col>
                             <Col> 
                                 <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/tour" activeClassName="selected">Visita turistica</NavLink></button>
+                                    <button variant="outline-secondary" className="button"><NavLink to="/portugues/visita" activeClassName="selected">Visita</NavLink></button>
                                 </Nav.Item>
                             </Col>    
                             <Col>
                                 <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/contact" activeClassName="selected">Contato</NavLink></button>
+                                    <button variant="outline-secondary" className="button"><NavLink to="/portugues/contacto" activeClassName="selected">Contato</NavLink></button>
                                 </Nav.Item>
                             </Col>
                             <Col>

@@ -1,0 +1,2357 @@
+(this["webpackJsonpkyria"] = this["webpackJsonpkyria"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "body {\r\n  font-size: 20px; \r\n}\r\n\r\n.container1 {\r\n  width:1600px;\r\n  margin: 0 auto;\r\n  text-align: center;\r\n}\r\n\r\n.container2 {\r\n  max-width:600px;\r\n}\r\n\r\n.container2 h1{\r\n  font-family: Yellowtail;\r\n}\r\n\r\n#flags{\r\n  text-align: right;\r\n}\r\n\r\n#flags img{\r\n  height: 50px;\r\n  margin: 2px;\r\n}\r\n\r\n.button {\r\n  width: 110px;\r\n  height: 51px;\r\n  border: 1px solid black;\r\n  border-radius: 8px;\r\n}\r\n\r\na:link, a:visited {\r\n  color: black;\r\n}\r\n\r\n.kyria {\r\n  margin-top: 20px;\r\n}\r\n\r\n.tour {\r\n  text-align: justify;\r\n}", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA;EACE,eAAe;AACjB;;AAEA;EACE,YAAY;EACZ,cAAc;EACd,kBAAkB;AACpB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,WAAW;AACb;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,mBAAmB;AACrB","sourcesContent":["body {\r\n  font-size: 20px; \r\n}\r\n\r\n.container1 {\r\n  width:1600px;\r\n  margin: 0 auto;\r\n  text-align: center;\r\n}\r\n\r\n.container2 {\r\n  max-width:600px;\r\n}\r\n\r\n.container2 h1{\r\n  font-family: Yellowtail;\r\n}\r\n\r\n#flags{\r\n  text-align: right;\r\n}\r\n\r\n#flags img{\r\n  height: 50px;\r\n  margin: 2px;\r\n}\r\n\r\n.button {\r\n  width: 110px;\r\n  height: 51px;\r\n  border: 1px solid black;\r\n  border-radius: 8px;\r\n}\r\n\r\na:link, a:visited {\r\n  color: black;\r\n}\r\n\r\n.kyria {\r\n  margin-top: 20px;\r\n}\r\n\r\n.tour {\r\n  text-align: justify;\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT;;cAEY;EACZ,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;EACE;aACW;AACb","sourcesContent":["body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/Aboutme.js":
+/*!************************!*\
+  !*** ./src/Aboutme.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var _Kyria_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Kyria.jpg */ "./src/Kyria.jpg");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\Aboutme.js";
+
+
+
+
+class Aboutme extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      fluid: true,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+        children: "About me"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 17
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+        src: _Kyria_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+        alt: "Kyria"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 17
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Aboutme);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _gb_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./gb.png */ "./src/gb.png");
+/* harmony import */ var _de_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./de.png */ "./src/de.png");
+/* harmony import */ var _fr_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fr.png */ "./src/fr.png");
+/* harmony import */ var _pt_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pt.png */ "./src/pt.png");
+/* harmony import */ var _Deutsch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Deutsch */ "./src/Deutsch.js");
+/* harmony import */ var _Francais__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Francais */ "./src/Francais.js");
+/* harmony import */ var _Portugues__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Portugues */ "./src/Portugues.js");
+/* harmony import */ var _English__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./English */ "./src/English.js");
+/* harmony import */ var _Aboutme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Aboutme */ "./src/Aboutme.js");
+/* harmony import */ var _Error404View__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Error404View */ "./src/Error404View.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _TourEn__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./TourEn */ "./src/TourEn.js");
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Contact */ "./src/Contact.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class App extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      fluid: true,
+      className: "container1",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+        id: "flags",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["NavLink"], {
+          to: "/english",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+            src: _gb_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+            alt: "English"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 30,
+            columnNumber: 34
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["NavLink"], {
+          to: "/deutsch",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+            src: _de_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+            alt: "Deutsch"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 31,
+            columnNumber: 34
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["NavLink"], {
+          to: "francais",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+            src: _fr_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+            alt: "Fran\xE7ais"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 32,
+            columnNumber: 34
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["NavLink"], {
+          to: "portugues",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+            src: _pt_png__WEBPACK_IMPORTED_MODULE_6__["default"],
+            alt: "Portugues"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 33,
+            columnNumber: 35
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 11
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 9
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Switch"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Route"], {
+          path: "/",
+          component: _English__WEBPACK_IMPORTED_MODULE_10__["default"]
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Route"], {
+          path: "/deutsch",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_Deutsch__WEBPACK_IMPORTED_MODULE_7__["default"], {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 39,
+            columnNumber: 13
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Route"], {
+          path: "/francais",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_Francais__WEBPACK_IMPORTED_MODULE_8__["default"], {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 42,
+            columnNumber: 13
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Route"], {
+          path: "/portugues",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_Portugues__WEBPACK_IMPORTED_MODULE_9__["default"], {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 45,
+            columnNumber: 13
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_Error404View__WEBPACK_IMPORTED_MODULE_12__["default"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 10
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 9
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Route"], {
+        path: "/english" + "/aboutme",
+        component: _Aboutme__WEBPACK_IMPORTED_MODULE_11__["default"]
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 9
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Route"], {
+        path: "/english" + "/tour",
+        component: _TourEn__WEBPACK_IMPORTED_MODULE_14__["default"]
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 9
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_13__["Route"], {
+        path: "/english" + "/contact",
+        component: _Contact__WEBPACK_IMPORTED_MODULE_15__["default"]
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 52,
+        columnNumber: 9
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 7
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Contact.js":
+/*!************************!*\
+  !*** ./src/Contact.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\Contact.js";
+
+
+
+class Contact extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      fluid: true,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("p", {
+        children: "Contact"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 17
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Deutsch.js":
+/*!************************!*\
+  !*** ./src/Deutsch.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\Deutsch.js";
+
+
+ //import Button from 'react-bootstrap/Button';
+
+
+
+
+
+
+class Deutsch extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      fluid: true,
+      className: "container1",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        fluid: true,
+        className: "container2",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+          children: "Kyria Sobrinho Reisef\xFChrer"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("hr", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          variant: "light",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/aboutme",
+                      activeClassName: "selected",
+                      children: "Uber mich"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 22,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 22,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/tour",
+                      activeClassName: "selected",
+                      children: "Reise"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 27,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 27,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 26,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 25,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/contact",
+                      activeClassName: "selected",
+                      children: "Kontakt"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 32,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 32,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 31,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 30,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
+                      children: "Blog"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 37,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 37,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 36,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 29
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 19,
+              columnNumber: 25
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 25
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 21
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 17
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Deutsch);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/English.js":
+/*!************************!*\
+  !*** ./src/English.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+/* harmony import */ var _Kyria_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Kyria.jpg */ "./src/Kyria.jpg");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\English.js";
+
+
+
+
+
+
+
+
+
+class English extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      fluid: true,
+      className: "container1",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        fluid: true,
+        className: "container2",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+          children: "Tour Guide Kyria Sobrinho"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("hr", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 11
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          variant: "light",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/english/aboutme",
+                      activeClassName: "selected",
+                      children: "About me"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 22,
+                      columnNumber: 76
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 22,
+                    columnNumber: 21
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/english/tour",
+                      activeClassName: "selected",
+                      children: "Tour"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 27,
+                      columnNumber: 76
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 27,
+                    columnNumber: 21
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 26,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 25,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/english/contact",
+                      activeClassName: "selected",
+                      children: "Contact"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 32,
+                      columnNumber: 76
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 32,
+                    columnNumber: 21
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 31,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 30,
+                columnNumber: 17
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
+                      children: "Blog"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 37,
+                      columnNumber: 76
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 37,
+                    columnNumber: 21
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 36,
+                  columnNumber: 19
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 17
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 19,
+              columnNumber: 15
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 13
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 11
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 17
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (English);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Error404View.js":
+/*!*****************************!*\
+  !*** ./src/Error404View.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\Error404View.js";
+
+
+
+class Error404View extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      fluid: true,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("p", {
+        children: "Error404View"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 17
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Error404View);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Francais.js":
+/*!*************************!*\
+  !*** ./src/Francais.js ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\Francais.js";
+
+
+ //import Button from 'react-bootstrap/Button';
+
+
+
+
+
+
+class Francais extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      fluid: true,
+      className: "container1",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        fluid: true,
+        className: "container2",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+          children: "Guide turistique Kyria Sobrinho"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("hr", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          variant: "light",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/aboutme",
+                      activeClassName: "selected",
+                      children: "\xC0 propos de moi"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 22,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 22,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/tour",
+                      activeClassName: "selected",
+                      children: "Tourn\xE9e"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 27,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 27,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 26,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 25,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/contact",
+                      activeClassName: "selected",
+                      children: "Contact"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 32,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 32,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 31,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 30,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
+                      children: "Blog"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 37,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 37,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 36,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 29
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 19,
+              columnNumber: 25
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 25
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 21
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 17
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Francais);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/Kyria.jpg":
+/*!***********************!*\
+  !*** ./src/Kyria.jpg ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/Kyria.988e8a12.jpg");
+
+/***/ }),
+
+/***/ "./src/Portugues.js":
+/*!**************************!*\
+  !*** ./src/Portugues.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\Portugues.js";
+
+
+ //import Button from 'react-bootstrap/Button';
+
+
+
+
+
+
+class Portugues extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      fluid: true,
+      className: "container1",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        fluid: true,
+        className: "container2",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+          children: "Guia tur\xEDstica Kyria Sobrinho"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("hr", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          variant: "light",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"], {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__["default"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/aboutme",
+                      activeClassName: "selected",
+                      children: "Sobre mim"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 22,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 22,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/tour",
+                      activeClassName: "selected",
+                      children: "Visita turistica"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 27,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 27,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 26,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 25,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+                      to: "/contact",
+                      activeClassName: "selected",
+                      children: "Contato"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 32,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 32,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 31,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 30,
+                columnNumber: 29
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Item, {
+                  as: "li",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+                    variant: "outline-secondary",
+                    className: "button",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
+                      children: "Blog"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 37,
+                      columnNumber: 92
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 37,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 36,
+                  columnNumber: 33
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 29
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 19,
+              columnNumber: 25
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 25
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 21
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 17
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Portugues);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/TourEn.js":
+/*!***********************!*\
+  !*** ./src/TourEn.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\TourEn.js";
+
+
+
+class TourEn extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      fluid: true,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+        children: "Kleistpark tour:"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 17
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+        className: "tour",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("p", {
+          children: "Kleistpark is hard to beat in Berlin, when it comes to places with more history per m2. And we are talking Berlin here, a city that breathes history. It encompasses over 300 years of German history, architecture and literature. Heinrich von Kleist was born roughly 30 years after the most popular and overrated writer in German history: Johann Wolfgang von Goethe. Born into a wealthy family, healthy Goethe never suffered in his life and unfortunately this lack of depth mirrors in his novels which have been torturing high school graduates for centuries. He knew very well that Kleist was much better than him, which is why he never adopted him as a proteg\xE9, which he would if he would really been a lover of language and literature. What he wanted was to become the icon of German intellectuals and he excelled. Nobody knows Kleist today but 100 years after his tragic suicide this park honored this underrated brilliant and tortured soul."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("p", {
+          children: "And it is this park that oozes history. The government can decide to rebuild the Berlin palace on museums island all they want, yet all they ever going to achieve is a simulacrum \xE0 la Disneyland but if you want to see the original leftovers from Frederik`s palace you can still see colonnades, which  were put here in the beginning of the 20th century. It is also one of the main hubs of one of the darkest chapters of German history: world war 2: Goebbels infamous sport-palace speech took place here. A few meters next to where Sport palace used to be, we will bump into the Kammergericht, highest state court for the city of Berlin. It was here that Freisler executed Stauffenberg and the members of the resistance group Die wei\xDFe Rose. But the notoriety of the courthouse goes back to the 18th century when the jurist ETA Hoffmann worked here while moonlighting as a writer of gothic horror and fantasy stories. Whilst barely known in Germany, let alone abroad he is said to be the biggest influence on none other than Edgar Allen Poe. Numerous sources have been researching this connection. Nowadays it is still in use today where it deals mainly with acts of terrorism."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 21
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("p", {
+          children: "I will also talk about the wild 70s with David Bowie and Iggy Pop living right next to the park. We will pass by his former apartment where he produced three of his most defining albums. In order to get there we will walk along Potsdamer stra\xDFe, a street known to million of readers all around the globe. It was here that Christiane F. in \u201CWir Kinder vom Bahnhof Zoo\u201D (We children from Zoo station) sold her body at the tender age of 13 in order to finance her heroine habit. The book, a huge success which spent weeks on the Spiegel bestseller list which is basically the German equivalent to the NYT bestseller list was translated into 18 languages. We can put off Wir Kinder vom Bahnhof Zoo as a piece of trashy social porn, that mythologizes and therefore almost idealizes the Berlin underground in the 70s, its outcasts, their hedonistic lifestyle, those beautiful loosers perennially moving through time to the sound of glam rock and declare it as piece of pulp fiction that solely relies on shock value, in a way that even the most teenagey Comedian would not get away with anymore. But we can also see it as testimonial of the angsty generation, that lived in constant fear of a nuclear war waiting to happen. The Socioeconomic class that Christiane F hailed from,  made heroin their drug of choice because they preferred the mellow calm heroin offered, over alcohol and thus seemingly opposed them diametrically to their parents who beat them up in a drunken stupor. At least in theory. The irony that none of these generations come from a culture that gave them any tool to deal with the trauma of a postwar generation raises questions if that trauma was ever resolved in the following generations."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 21
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 17
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }, this);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (TourEn);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/de.png":
+/*!********************!*\
+  !*** ./src/de.png ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/fr.png":
+/*!********************!*\
+  !*** ./src/fr.png ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/gb.png":
+/*!********************!*\
+  !*** ./src/gb.png ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_6__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js?8937");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+var _jsxFileName = "C:\\Users\\proch\\desktop\\activities\\kyria\\src\\index.js";
+
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_1___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_5__["BrowserRouter"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_4__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 10,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 9,
+  columnNumber: 3
+}, undefined), document.getElementById('root'));
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/pt.png":
+/*!********************!*\
+  !*** ./src/pt.png ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/png;base64,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");
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js C:/Users/proch/Desktop/activities/kyria/node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js C:/Users/proch/Desktop/activities/kyria/node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\proch\Desktop\activities\kyria\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\proch\Desktop\activities\kyria\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! C:\Users\proch\Desktop\activities\kyria\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\proch\desktop\activities\kyria\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map

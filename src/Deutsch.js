@@ -16,28 +16,28 @@ class Deutsch extends React.Component {
                     <hr />
                     <Navbar variant="light">
                         <Nav>
-                        <Row>
-                            <Col>
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/aboutme" activeClassName="selected">Uber mich</NavLink></button>
-                                </Nav.Item>
-                            </Col>
-                            <Col> 
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/tour" activeClassName="selected">Reise</NavLink></button>
-                                </Nav.Item>
-                            </Col>    
-                            <Col>
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/contact" activeClassName="selected">Kontakt</NavLink></button>
-                                </Nav.Item>
-                            </Col>
-                            <Col>
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><a>Blog</a></button>
-                                </Nav.Item>
-                            </Col>
-                        </Row>
+                            <Row>
+                                <Col>
+                                    <Nav.Item as="li">
+                                        <button variant="outline-secondary" className="button"><NavLink to="/deutsch/ubermich" activeClassName="selected">Über mich</NavLink></button>
+                                    </Nav.Item>
+                                </Col>
+                                <Col>
+                                    <Nav.Item as="li">
+                                        <button variant="outline-secondary" className="button"><NavLink to="/deutsch/reise" activeClassName="selected">Reise</NavLink></button>
+                                    </Nav.Item>
+                                </Col>
+                                <Col>
+                                    <Nav.Item as="li">
+                                        <button variant="outline-secondary" className="button"><NavLink to="/deutsch/kontakt" activeClassName="selected">Kontakt</NavLink></button>
+                                    </Nav.Item>
+                                </Col>
+                                <Col>
+                                    <Nav.Item as="li">
+                                        <button variant="outline-secondary" className="button"><a>Blog</a></button>
+                                    </Nav.Item>
+                                </Col>
+                            </Row>
                         </Nav>
                     </Navbar>
                 </Container>
