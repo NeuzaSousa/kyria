@@ -17,7 +17,7 @@ body {
 }
 
 .container3 {
-  max-width: 1000px;
+  max-width:1000px;
 }
 
 #flags{
@@ -46,4 +46,8 @@ a:link, a:visited {
 
 .tour {
   text-align: justify;
+}
+
+.title{
+  margin:40px;
 }

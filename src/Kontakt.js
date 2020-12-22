@@ -5,7 +5,7 @@ class Kontakt extends React.Component {
     render() {
         return (
             <Container fluid>
-                <h1>Kontakt</h1>
+                <h1 className="title">Kontakt</h1>
             </Container>
         )
     }

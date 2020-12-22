@@ -5,7 +5,7 @@ class TourEn extends React.Component {
     render() {
         return (
             <Container fluid className="container3">
-                <h1>Kleistpark tour:</h1>
+                <h1 className="title">Kleistpark tour</h1>
                 <div className="tour">
                     <p>
                         <strong>The tour encompasses 300 years of German history, with special focus on world war 2 and the wild 70s when Icons of music and popular 

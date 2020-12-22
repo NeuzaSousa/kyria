@@ -6,7 +6,7 @@ class Aproposdemoi extends React.Component {
     render() {
         return (
             <Container fluid>
-                <h1>À propos de moi</h1>
+                <h1 className="title">À propos de moi</h1>
                 <img src={Kyria} alt="Kyria" />
             </Container>
         )

@@ -23,10 +23,7 @@ import Contacto from "./Contacto";
 import Aproposdemoi from "./Aproposdemoi";
 import Sobremim from "./Sobremim";
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Redirect } from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -41,6 +38,8 @@ class App extends React.Component {
           <NavLink to="/francais"><img src={FrenchImg} alt="Français" /></NavLink>
           <NavLink to="/portugues"><img src={PortugueseImg} alt="Portugues" /></NavLink>
         </div>
+
+        <Redirect to="/english"/>
 
         <Switch>
           <Route path="/english" component={English} />

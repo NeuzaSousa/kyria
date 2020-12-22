@@ -5,7 +5,7 @@ class Visita extends React.Component {
     render() {
         return (
             <Container fluid className="container3">
-                <h1>Kleistpark tour:</h1>
+                <h1 className="title">Visita ao Kleistpark</h1>
                 <div className="tour">
                     <p>A visita guiada inclui 300 anos de História, com um foco especial na segunda guerra mundial e as ícones dos anos setenta: 
                     David Bowie, Christiane F. (Eu, Christiane F., 13 Anos, Drogada Prostituida.)</p>
