@@ -1,28 +1,36 @@
 import React from 'react';
 import './App.css';
-import EnglishImg from './gb.png';
-import GermanImg from './de.png';
-import FrenchImg from './fr.png';
-import PortugueseImg from './pt.png';
-import Deutsch from './Deutsch';
-import Francais from './Francais';
-import Portugues from './Portugues';
-import English from './English';
-import Aboutme from './Aboutme';
-import Error404View from './Error404View';
-import { Switch, Route, NavLink } from "react-router-dom";
-import TourEn from "./TourEn";
-import Tournee from "./Tournee";
-import ContactEn from "./ContactEn";
-import ContactFr from "./ContactFr";
-import Ubermich from "./Ubermich";
-import Reise from "./Reise";
-import Visita from "./Visita";
-import Kontakt from "./Kontakt";
-import Contacto from "./Contacto";
-import Aproposdemoi from "./Aproposdemoi";
-import Sobremim from "./Sobremim";
+
+import EnglishImg from './components/pictures/gb.png';
+import GermanImg from './components/pictures/de.png';
+import FrenchImg from './components/pictures/fr.png';
+import PortugueseImg from './components/pictures/pt.png';
+
+import English from './components/English';
+import Deutsch from './components/Deutsch';
+import Francais from './components/Francais';
+import Portugues from './components/Portugues';
+import Error404View from './components/Error404View';
+
+import Aboutme from './components/Aboutme';
+import TourEn from "./components/TourEn";
+import ContactEn from "./components/ContactEn";
+
+
+import Ubermich from "./components/Ubermich";
+import Reise from "./components/Reise";
+import Kontakt from "./components/Kontakt";
+
+import Aproposdemoi from "./components/Aproposdemoi";
+import Tournee from "./components/Tournee";
+import ContactFr from "./components/ContactFr";
+
+import Sobremim from "./components/Sobremim";
+import Visita from "./components/Visita";
+import Contacto from "./components/Contacto";
+
 import Container from 'react-bootstrap/Container';
+import { Switch, Route, NavLink } from "react-router-dom";
 import { Redirect } from 'react-router-dom';
 
 

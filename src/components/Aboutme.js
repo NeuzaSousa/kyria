@@ -1,16 +1,16 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Kyria from './Kyria.jpg';
+import Kyria from './pictures/Kyria.jpg';
 
-class Aproposdemoi extends React.Component {
+class Aboutme extends React.Component {
     render() {
         return (
             <Container fluid>
-                <h1 className="title">À propos de moi</h1>
+                <h1 className="title">About me</h1>
                 <img src={Kyria} alt="Kyria" />
             </Container>
         )
     }
 }
 
-export default Aproposdemoi;
+export default Aboutme;
