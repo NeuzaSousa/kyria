@@ -13,7 +13,7 @@ class Deutsch extends React.Component {
         return (
             <Container fluid className="container1">
                 <Container fluid className="container2">
-                    <h1>Kyria Sobrinho Reiseführer</h1>
+                    <h1>Kyria Sobrinho Gästeführer</h1>
                     <hr />
 
                     <Redirect to="/deutsch/reise"/>
@@ -23,7 +23,7 @@ class Deutsch extends React.Component {
                             <Row>
                                 <Col>
                                     <Nav.Item as="li">
-                                        <button variant="outline-secondary" className="button"><NavLink to="/deutsch/reise" activeClassName="selected">Reise</NavLink></button>
+                                        <button variant="outline-secondary" className="button"><NavLink to="/deutsch/reise" activeClassName="selected">Tour</NavLink></button>
                                     </Nav.Item>
                                 </Col>
                                 <Col>
@@ -34,11 +34,6 @@ class Deutsch extends React.Component {
                                 <Col>
                                     <Nav.Item as="li">
                                         <button variant="outline-secondary" className="button"><NavLink to="/deutsch/kontakt" activeClassName="selected">Kontakt</NavLink></button>
-                                    </Nav.Item>
-                                </Col>
-                                <Col>
-                                    <Nav.Item as="li">
-                                        <button variant="outline-secondary" className="button"><a>Blog</a></button>
                                     </Nav.Item>
                                 </Col>
                             </Row>

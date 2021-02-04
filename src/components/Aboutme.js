@@ -8,7 +8,7 @@ class Aboutme extends React.Component {
             <Container fluid className="container3">
                 <h1 className="title">About me</h1>
                 <img src={Kyria} alt="Kyria" />
-                <p>I am an art school dropout and later studied Northamerican studies and French with a focus on literature and for the past 10+ years have been working 
+                <p>I am an art school dropout and later studied Northamerican studies and French with a focus on literature and for the past ten years have been working 
                     as a radio host, freelance speaker, museum educator, writer and interpreter.
                 </p>
                 <p>After Covid my main income that from museums was just gone from one day to another, but it also gave me the final time and motivation to work on a 

@@ -20,28 +20,23 @@ class Francais extends React.Component {
 
                     <Navbar variant="light">
                         <Nav>
-                        <Row>
-                            <Col> 
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/francais/tournee" activeClassName="selected">Tournée</NavLink></button>
-                                </Nav.Item>
-                            </Col>
-                            <Col>
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/francais/aproposdemoi" activeClassName="selected">À propos de moi</NavLink></button>
-                                </Nav.Item>
-                            </Col>
-                            <Col>
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/francais/contactfr" activeClassName="selected">Contact</NavLink></button>
-                                </Nav.Item>
-                            </Col>
-                            <Col>
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><a>Blog</a></button>
-                                </Nav.Item>
-                            </Col>
-                        </Row>
+                            <Row>
+                                <Col> 
+                                    <Nav.Item as="li">
+                                        <button variant="outline-secondary" className="button"><NavLink to="/francais/tournee" activeClassName="selected">Tournée</NavLink></button>
+                                    </Nav.Item>
+                                </Col>
+                                <Col>
+                                    <Nav.Item as="li">
+                                        <button variant="outline-secondary" className="button"><NavLink to="/francais/aproposdemoi" activeClassName="selected">À propos de moi</NavLink></button>
+                                    </Nav.Item>
+                                </Col>
+                                <Col>
+                                    <Nav.Item as="li">
+                                        <button variant="outline-secondary" className="button"><NavLink to="/francais/contactfr" activeClassName="selected">Contact</NavLink></button>
+                                    </Nav.Item>
+                                </Col>
+                            </Row>
                         </Nav>
                     </Navbar>
                 </Container>

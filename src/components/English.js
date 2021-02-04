@@ -12,39 +12,35 @@ class English extends React.Component {
     render() {
         return (
             <Container fluid className="container1">
-                <Container fluid className="container2">
-          <h1>Tour Guide Kyria Sobrinho</h1>
-          <hr />
+              <h1>Tour Guide Kyria Sobrinho</h1>
+              <hr />
+              <Container fluid className="container2">
+                
 
-          <Redirect to="/english/tour"/>
+                <Redirect to="/english/tour"/>
 
-          <Navbar variant="light">
-            <Nav>
-              <Row>
-                <Col> 
-                  <Nav.Item as="li">
-                    <button variant="outline-secondary" className="button"><NavLink to="/english/tour" activeClassName="selected">Tour</NavLink></button>
-                  </Nav.Item>
-                </Col>
-                <Col> 
-                  <Nav.Item as="li">
-                    <button variant="outline-secondary" className="button"><NavLink to="/english/aboutme" activeClassName="selected">About me</NavLink></button>
-                  </Nav.Item>
-                </Col>
-                <Col>
-                  <Nav.Item as="li">
-                    <button variant="outline-secondary" className="button"><NavLink to="/english/contact" activeClassName="selected">Contact</NavLink></button>
-                  </Nav.Item>
-                </Col>
-                <Col>
-                  <Nav.Item as="li">
-                    <button variant="outline-secondary" className="button"><a>Blog</a></button>
-                  </Nav.Item>
-                </Col>
-              </Row>
-            </Nav>
-          </Navbar>
-        </Container>
+                <Navbar variant="light">
+                  <Nav>
+                    <Row>
+                      <Col> 
+                        <Nav.Item as="li">
+                          <button variant="outline-secondary" className="button"><NavLink to="/english/tour" activeClassName="selected">Tour</NavLink></button>
+                        </Nav.Item>
+                      </Col>
+                      <Col>                           
+                        <Nav.Item as="li">
+                          <button variant="outline-secondary" className="button"><NavLink to="/english/aboutme" activeClassName="selected">About me</NavLink></button>
+                        </Nav.Item>
+                      </Col>
+                      <Col>
+                        <Nav.Item as="li">
+                          <button variant="outline-secondary" className="button"><NavLink to="/english/contact" activeClassName="selected">Contact</NavLink></button>
+                        </Nav.Item>
+                      </Col>
+                    </Row>
+                  </Nav>
+                </Navbar>
+              </Container>
             
             </Container>
         )
