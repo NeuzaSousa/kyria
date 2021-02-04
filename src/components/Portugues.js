@@ -12,11 +12,10 @@ class Portugues extends React.Component {
     render() {
         return (
             <Container fluid className="container1">
+                <h1>Guia turística Kyria Sobrinho</h1>
+                <hr />
                 <Container fluid className="container2">
-                    <h1>Guia turística Kyria Sobrinho</h1>
-                    <hr />
-
-                    <Redirect to="/portugues/visita"/>
+                   <Redirect to="/portugues/visita"/>
 
                     <Navbar variant="light">
                         <Nav>

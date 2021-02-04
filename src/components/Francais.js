@@ -12,9 +12,9 @@ class Francais extends React.Component {
     render() {
         return (
             <Container fluid className="container1">
+                <h1>Guide turistique Kyria Sobrinho</h1>
+                <hr />
                 <Container fluid className="container2">
-                    <h1>Guide turistique Kyria Sobrinho</h1>
-                    <hr />
 
                     <Redirect to="/francais/tournee"/>
 
@@ -23,7 +23,7 @@ class Francais extends React.Component {
                             <Row>
                                 <Col> 
                                     <Nav.Item as="li">
-                                        <button variant="outline-secondary" className="button"><NavLink to="/francais/tournee" activeClassName="selected">Tournée</NavLink></button>
+                                        <button variant="outline-secondary" className="button"><NavLink to="/francais/tournee" activeClassName="selected">Tour</NavLink></button>
                                     </Nav.Item>
                                 </Col>
                                 <Col>

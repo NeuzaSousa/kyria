@@ -5,6 +5,7 @@ import EnglishImg from './components/pictures/gb.png';
 import GermanImg from './components/pictures/de.png';
 import FrenchImg from './components/pictures/fr.png';
 import PortugueseImg from './components/pictures/pt.png';
+import InstaImg from './components/pictures/insta.png';
 
 import English from './components/English';
 import Deutsch from './components/Deutsch';
@@ -65,19 +66,22 @@ class App extends React.Component {
           <Error404View />
         </Switch>
 
-        <Route path={"/english" + "/aboutme"} component={Aboutme} />
-        <Route path={"/english" + "/tour"} component={TourEn} />
-        <Route path={"/english" + "/contact"} component={ContactEn} />
-        <Route path={"/deutsch" + "/ubermich"} component={Ubermich} />
-        <Route path={'/deutsch' + '/reise'} component={Reise} />
-        <Route path={"/deutsch" + "/kontakt"} component={Kontakt} />
-        <Route path={'/francais' + "/aproposdemoi"} component={Aproposdemoi} />
-        <Route path={'/francais' + "/tournee"} component={Tournee} />
-        <Route path={'/francais' + "/contactfr"} component={ContactFr} />
-        <Route path={'/portugues' + "/sobremim"} component={Sobremim} />
-        <Route path={'/portugues' + "/visita"} component={Visita} />
-        <Route path={'/portugues' + "/contacto"} component={Contacto} />
+        <Route path={"/english/aboutme"} component={Aboutme} />
+        <Route path={"/english/tour"} component={TourEn} />
+        <Route path={"/english/contact"} component={ContactEn} />
+        <Route path={"/deutsch/ubermich"} component={Ubermich} />
+        <Route path={'/deutsch/reise'} component={Reise} />
+        <Route path={"/deutsch/kontakt"} component={Kontakt} />
+        <Route path={'/francais/aproposdemoi'} component={Aproposdemoi} />
+        <Route path={'/francais/tournee'} component={Tournee} />
+        <Route path={'/francais/contactfr'} component={ContactFr} />
+        <Route path={'/portugues/sobremim'} component={Sobremim} />
+        <Route path={'/portugues/visita'} component={Visita} />
+        <Route path={'/portugues/contacto'} component={Contacto} />
 
+        <div id="insta">
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" /></a>
+        </div>
       </Container>
     );
   }

@@ -12,9 +12,10 @@ class Deutsch extends React.Component {
     render() {
         return (
             <Container fluid className="container1">
+                <h1>Kyria Sobrinho Gästeführer</h1>
+                <hr />
                 <Container fluid className="container2">
-                    <h1>Kyria Sobrinho Gästeführer</h1>
-                    <hr />
+                   
 
                     <Redirect to="/deutsch/reise"/>
 

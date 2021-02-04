@@ -35,6 +35,12 @@ body {
   margin-right: 2px;
 }
 
+#insta img{
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .button {
   width: 110px;
   height: 51px;
