@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Redirect } from 'react-router-dom';
 
 class Portugues extends React.Component {
     render() {
@@ -14,19 +15,22 @@ class Portugues extends React.Component {
                 <Container fluid className="container2">
                     <h1>Guia turística Kyria Sobrinho</h1>
                     <hr />
+
+                    <Redirect to="/portugues/visita"/>
+
                     <Navbar variant="light">
                         <Nav>
                         <Row>
+                            <Col> 
+                                <Nav.Item as="li">
+                                    <button variant="outline-secondary" className="button"><NavLink to="/portugues/visita" activeClassName="selected">Visita</NavLink></button>
+                                </Nav.Item>
+                            </Col>
                             <Col>
                                 <Nav.Item as="li">
                                     <button variant="outline-secondary" className="button"><NavLink to="/portugues/sobremim" activeClassName="selected">Sobre mim</NavLink></button>
                                 </Nav.Item>
                             </Col>
-                            <Col> 
-                                <Nav.Item as="li">
-                                    <button variant="outline-secondary" className="button"><NavLink to="/portugues/visita" activeClassName="selected">Visita</NavLink></button>
-                                </Nav.Item>
-                            </Col>    
                             <Col>
                                 <Nav.Item as="li">
                                     <button variant="outline-secondary" className="button"><NavLink to="/portugues/contacto" activeClassName="selected">Contato</NavLink></button>

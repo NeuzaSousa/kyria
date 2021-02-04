@@ -30,7 +30,8 @@ import Visita from "./components/Visita";
 import Contacto from "./components/Contacto";
 
 import Container from 'react-bootstrap/Container';
-import { Switch, Route, NavLink } from "react-router-dom";
+import Dropdown from 'react-bootstrap/Dropdown';
+import { Switch, Route, NavLink, Link } from "react-router-dom";
 import { Redirect } from 'react-router-dom';
 
 
@@ -40,14 +41,21 @@ class App extends React.Component {
     return (
       <Container fluid className="container1">
 
+        <Redirect to="/english/tour"/>
+        
         <div id="flags">
-          <NavLink to="/english"><img src={EnglishImg} alt="English" /></NavLink>
-          <NavLink to="/deutsch"><img src={GermanImg} alt="Deutsch" /></NavLink>
-          <NavLink to="/francais"><img src={FrenchImg} alt="Français" /></NavLink>
-          <NavLink to="/portugues"><img src={PortugueseImg} alt="Portugues" /></NavLink>
-        </div>
+          <Dropdown>
+            <Dropdown.Toggle id="dropdown-basic">
+              <Link to="/english"><img src={EnglishImg} alt="English" />EN</Link>
+            </Dropdown.Toggle>
 
-        <Redirect to="/english"/>
+            <Dropdown.Menu>
+              <Dropdown.Item><NavLink to="/deutsch"><img src={GermanImg} alt="Deutsch" />DE</NavLink></Dropdown.Item>
+              <Dropdown.Item><NavLink to="/francais"><img src={FrenchImg} alt="Français" />FR</NavLink></Dropdown.Item>
+              <Dropdown.Item><NavLink to="/portugues"><img src={PortugueseImg} alt="Portugues" />PT</NavLink></Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        </div>
 
         <Switch>
           <Route path="/english" component={English} />

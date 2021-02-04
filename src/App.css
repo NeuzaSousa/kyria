@@ -20,13 +20,17 @@ body {
   max-width:1000px;
 }
 
+.container3 p {
+  margin-top: 30px;
+}
+
 #flags{
   text-align: right;
 }
 
 #flags img{
-  height: 50px;
-  margin: 2px;
+  height: 40px;
+  margin-right: 2px;
 }
 
 .button {
