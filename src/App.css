@@ -1,27 +1,29 @@
 body {
   font-size: 20px; 
+  background-image: url("Park.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container1 {
+  background-color:rgba(255,255,255, 0.8);
   max-width:1600px;
   margin: 0 auto;
   text-align: center;
 }
-
-.container2 {
-  max-width:456px;
-}
-
 .container2 h1{
   font-family: JetBrains;
 }
 
 .container3 {
-  max-width:1000px;
-  
+  max-width:350px;
 }
 
-.container3 p {
+.container4 {
+  max-width:1000px; 
+}
+
+.container4 p {
   margin-top: 30px;
   text-align: justify;
 }

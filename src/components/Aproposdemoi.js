@@ -5,7 +5,7 @@ import Kyria from './pictures/Kyria.jpg';
 class Aproposdemoi extends React.Component {
     render() {
         return (
-            <Container fluid className="container3">
+            <Container fluid className="container4">
                 <h1 className="title">À propos de moi</h1>
                 <img src={Kyria} alt="Kyria" />
                 <p>

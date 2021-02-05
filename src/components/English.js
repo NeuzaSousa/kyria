@@ -11,10 +11,10 @@ import { Redirect } from 'react-router-dom';
 class English extends React.Component {
     render() {
         return (
-            <Container fluid className="container1">
+            <Container fluid className="container2">
               <h1>Tour Guide Kyria Sobrinho</h1>
               <hr />
-              <Container fluid className="container2">
+              <Container fluid className="container3">
                 
 
                 <Redirect to="/english/tour"/>
@@ -32,11 +32,11 @@ class English extends React.Component {
                           <button variant="outline-secondary" className="button"><NavLink to="/english/aboutme" activeClassName="selected">About me</NavLink></button>
                         </Nav.Item>
                       </Col>
-                      <Col>
+                      {/*<Col>
                         <Nav.Item as="li">
                           <button variant="outline-secondary" className="button"><NavLink to="/english/contact" activeClassName="selected">Contact</NavLink></button>
                         </Nav.Item>
-                      </Col>
+                      </Col>*/}
                     </Row>
                   </Nav>
                 </Navbar>

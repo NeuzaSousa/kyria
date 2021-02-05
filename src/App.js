@@ -6,6 +6,8 @@ import GermanImg from './components/pictures/de.png';
 import FrenchImg from './components/pictures/fr.png';
 import PortugueseImg from './components/pictures/pt.png';
 import InstaImg from './components/pictures/insta.png';
+import EmailImg from './components/pictures/email.png';
+import PhoneImg from './components/pictures/phone.png';
 
 import English from './components/English';
 import Deutsch from './components/Deutsch';
@@ -81,6 +83,8 @@ class App extends React.Component {
 
         <div id="insta">
           <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" /></a>
+          <span>@</span>
+          <img src={PhoneImg} alt="Phone" />
         </div>
       </Container>
     );

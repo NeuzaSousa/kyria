@@ -4,11 +4,11 @@ import Container from 'react-bootstrap/Container';
 class Tournee extends React.Component {
     render() {
         return (
-            <Container fluid className="container3">
+            <Container fluid className="container4">
                 <h1 className="title">Kleistpark tour</h1>
                 <div className="tour">
                     <p>
-                        La visite couvre 300 ans d’histoire allemande avec un accent sur la deuxième guerre mondiale et les icônes des années 70 à Berlin : David Bowie, Iggy Pop, Christiane F du livre Moi, Christiane F., 13 ans, droguée, prostituée… Avec les groupes privés, il est possible de se concentrer spécifiquement sur certains en fonction des envies.
+                        La visite couvre 300 ans d’histoire allemande avec un accent sur la deuxième guerre mondiale et les icônes des années 70 à Berlin : <strong>David Bowie</strong>, <strong>Iggy Pop</strong>, <strong>Christiane F</strong> du livre Moi, Christiane F., 13 ans, droguée, prostituée… Avec les groupes privés, il est possible de se concentrer spécifiquement sur certains en fonction des envies.
                         Les stations sont normalement:
                     </p>
                     <ul>

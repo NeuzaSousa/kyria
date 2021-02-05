@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 class TourEn extends React.Component {
     render() {
         return (
-            <Container fluid className="container3">
+            <Container fluid className="container4">
                 <h1 className="title">Kleistpark tour</h1>
                 <div className="tour">
                     <p>
