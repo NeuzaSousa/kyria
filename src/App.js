@@ -86,6 +86,8 @@ class App extends React.Component {
           <span>@</span>
           <img src={PhoneImg} alt="Phone" />
         </div>
+
+        <p>&#169; 2021 Kyria Sobrinho all rights reserved</p>
       </Container>
     );
   }

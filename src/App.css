@@ -65,3 +65,10 @@ a:link, a:visited {
 .title{
   margin:40px;
 }
+
+.galery img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 40px;
+}
