@@ -19,6 +19,13 @@ import Kyria from './pictures/Kyria.jpg';
 
 
 class English extends React.Component {
+  
+  openImg () {
+    console.log("Hello")
+    //window.open('./pictures/kleist.jpg', '_blank');
+    
+  }
+
     render() {
         return (
             <Container fluid className="container2">
@@ -56,7 +63,7 @@ class English extends React.Component {
     
               <div className="galery">
                 <Row>
-                  <Col><img src={KleistImg} alt="Kleist" />Heinrich von Kleist</Col>
+                  <Col><img src={KleistImg} alt="Kleist" onClick={this.openImg()} />Heinrich von Kleist</Col>
                   <Col><img src={SportImg} alt="Sportpalast rede" />Sportpalast speech</Col>
                   <Col><img src={WirKinderImg} alt="Wir Kinder von Bahnhofzoo" />Christiane F. movie still</Col>
                 </Row>

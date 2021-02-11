@@ -18,6 +18,7 @@ import Error404View from './components/Error404View';
 import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Switch, Route, NavLink, Link } from "react-router-dom";
+import { Redirect } from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -41,6 +42,8 @@ class App extends React.Component {
         </div>
         <h1>Operation Walkyria</h1>
               <hr />
+
+          <Redirect to="/english"/>
         <Switch>
           <Route path="/english" component={English} />
           <Route path="/deutsch" component={Deutsch} />
