@@ -1,8 +1,8 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+//import Navbar from 'react-bootstrap/Navbar';
+//import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import KleistImg from './pictures/kleist.jpg';
@@ -20,9 +20,9 @@ import Kyria from './pictures/Kyria.jpg';
 
 class English extends React.Component {
   
-  openImg () {
+  openImg() {
     console.log("Hello")
-    //window.open('./pictures/kleist.jpg', '_blank');
+    window.open(<img src='./pictures/kleist.jpg' alt="Kleist" />, '_blank');
     
   }
 
@@ -63,7 +63,7 @@ class English extends React.Component {
     
               <div className="galery">
                 <Row>
-                  <Col><img src={KleistImg} alt="Kleist" onClick={this.openImg()} />Heinrich von Kleist</Col>
+                  <Col><img src={KleistImg} alt="Kleist" onClick={() => this.openImg()} />Heinrich von Kleist</Col>
                   <Col><img src={SportImg} alt="Sportpalast rede" />Sportpalast speech</Col>
                   <Col><img src={WirKinderImg} alt="Wir Kinder von Bahnhofzoo" />Christiane F. movie still</Col>
                 </Row>

@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 //import Button from 'react-bootstrap/Button';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+//import Navbar from 'react-bootstrap/Navbar';
+//import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import KleistImg from './pictures/kleist.jpg';
@@ -50,7 +50,7 @@ class Deutsch extends React.Component {
                     <Row>
                         <Col><img src={KleistImg} alt="Kleist" />Heinrich von Kleist</Col>
                         <Col><img src={SportImg} alt="Sportpalast rede" />Sportpalast rede</Col>
-                        <Col><img src={WirKinderImg} alt="Wir Kinder von Bahnhofzoo" />Christiane F. movie still</Col>
+                        <Col><img src={WirKinderImg} alt="Wir Kinder von Bahnhofzoo" />Wir Kinder von Bahnhof Zoo bild</Col>
                     </Row>
                     <Row>
                         <Col><img src={PalasseumImg} alt="Palasseum" />Palasseum</Col>

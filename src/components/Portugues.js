@@ -1,9 +1,9 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 //import Button from 'react-bootstrap/Button';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+//import Navbar from 'react-bootstrap/Navbar';
+//import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import KleistImg from './pictures/kleist.jpg';
@@ -16,7 +16,7 @@ import HoffmannImg from './pictures/hoffmann.jpg';
 import PoeImg from './pictures/poe.jpg';
 import Bowie2Img from './pictures/bowie2.jpg';
 import Kyria from './pictures/Kyria.jpg';
-import { Redirect } from 'react-router-dom';
+//import { Redirect } from 'react-router-dom';
 
 class Portugues extends React.Component {
     render() {
