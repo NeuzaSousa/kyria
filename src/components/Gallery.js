@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-class Galery extends React.Component {
+class Gallery extends React.Component {
 
     render() {
         return (
@@ -32,4 +32,4 @@ class Galery extends React.Component {
 
 
 
-export default Galery;
+export default Gallery;

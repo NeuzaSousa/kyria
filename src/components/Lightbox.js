@@ -4,12 +4,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-//import SmallKleistImg from './pictures/smallKleist.JPG';
 import KleistImg from './pictures/kleist.jpg';
 import SportImg from './pictures/sportpalastrede.jpg';
-//import SmallSportImg from './pictures/smallSportpalast.JPG';
 import WirKinderImg from './pictures/wirkinder.jpg';
 import PalasseumImg from './pictures/palasseum.jpg';
+import Bowie1Img from './pictures/bowie1.jpg';
+import GoebbelsImg from './pictures/goebbels.jpg';
+import HoffmannImg from './pictures/hoffmann.jpg';
+import PoeImg from './pictures/poe.jpg';
+import Bowie2Img from './pictures/bowie2.jpg';
 
 
 //let slideIndex = 1;
@@ -18,7 +21,8 @@ class Lightbox extends React.Component {
     constructor(props) {
         super(props);
           this.state = {
-            show: false
+            show: false,
+            slideIndex: 1
           };
         };
     
@@ -32,25 +36,22 @@ class Lightbox extends React.Component {
         this.setState({
             show: false
         });
-        //this.props.history.push('/');
-        }
-    // Open the Modal
-    /*openModal() {
-        this.setState({display: "block"})
-        //document.getElementById("myModal").style.display = "block";
-    }*/
-  
-    /*// Close the Modal
-    closeModal() {
-        document.getElementById("myModal").style.display = "none";
+
     }
 
-    //this.showSlides(slideIndex);
+    setSlide(e) {
+        this.setState({
+            slideIndex: e
+        })
+        this.handleShow();
+        console.log(this.state.slideIndex)
+    };
 
     // Next/previous controls
     plusSlides(n) {
-        this.showSlides(slideIndex += n);
-    }*/
+
+        //this.showSlides(slideIndex += n);
+    }
   
   // Thumbnail image controls
     /*currentSlide(n) {
@@ -74,8 +75,6 @@ class Lightbox extends React.Component {
         //dots[slideIndex-1].className += " active";
         //captionText.innerHTML = dots[slideIndex-1].alt;
     }*/
-  
-    /*, this.currentSlide(1)*/
 
     render() {
 
@@ -83,30 +82,36 @@ class Lightbox extends React.Component {
             <Container fluid className="container2">
                 
                 {/*<!-- Images used to open the lightbox -->*/}
-                <Row className="galery">
-                    <Col>
-                        <img src={KleistImg} alt="Kleist" onClick={this.handleShow()} />
-                    </Col>
-                    {/*<Col>
-                        <img src={SportImg} onclick="openModal();currentSlide(2)" className="hover-shadow" />
-                    </Col>
-                    <Col>
-                        <img src={WirKinderImg} onclick="openModal();currentSlide(3)" className="hover-shadow" />
-                    </Col>
-                    <Col>
-                        <img src={PalasseumImg} onclick="openModal();currentSlide(4)" className="hover-shadow" />
-                    </Col>*/}
-                </Row>
+                <Container fluid className="gallery">
+                    <Row className="gallery">
+                        <Col>
+                            <img src={KleistImg} alt="Kleist" onClick={(e) => this.setSlide(1)} className="hover-shadow" />
+                        </Col>
+                        <Col>
+                            <img src={SportImg} alt="Sportpalastrede" onClick={(e) => this.setSlide(2)} className="hover-shadow" />
+                        </Col>
+                        <Col>
+                            <img src={WirKinderImg} alt="WirKinder" onClick={(e) => this.setSlide(3)} className="hover-shadow" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col><img src={PalasseumImg} alt="Palasseum" />Palasseum</Col>
+                        <Col><img src={Bowie1Img} alt="Bowie1" />David Bowie, 70s</Col>
+                        <Col><img src={HoffmannImg} alt="A drawing by ETA Hoffmann" />Drawing, ETA Hoffmanm</Col>
+                    </Row>
+                    <Row>
+                        <Col><img src={GoebbelsImg} alt="Goebbels" />Goebbels</Col>
+                        <Col><img src={PoeImg} alt="Poe" />Drawing from Edgar Allen Poe book</Col>
+                        <Col><img src={Bowie2Img} alt="Bowie2" />David Bowie visiting Berlin</Col>
+                    </Row>
+                </Container>
 
                 <Modal show={this.state.show} onHide={(e) => this.handleClose(e)}>
-                    <Modal.Header closeButton>
-                        <Modal.Title>Success!</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>Your e-mail, phone number and address have been successfully added to our database. You will start getting our alerts soon.</Modal.Body>
+                    <Modal.Body><img src={KleistImg} /></Modal.Body> 
                     <Modal.Footer>
-                        <Button variant="primary" onClick={(e) => this.handleClose(e)}>
-                            Close
-                        </Button>
+                            <Button variant="primary" onClick={(e) => this.handleClose(e)}>
+                                &times;
+                            </Button>
                     </Modal.Footer>
                 </Modal>
 

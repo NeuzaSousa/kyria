@@ -61,7 +61,7 @@ class English extends React.Component {
                   in German Rap music</li>
               </ul>
     
-              <div className="galery">
+              <div className="gallery">
                 <Row>
                   <Col><img src={KleistImg} alt="Kleist" onClick={() => this.openImg()} />Heinrich von Kleist</Col>
                   <Col><img src={SportImg} alt="Sportpalast rede" />Sportpalast speech</Col>
