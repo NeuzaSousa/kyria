@@ -85,7 +85,7 @@ class Lightbox extends React.Component {
                 {/*<!-- Images used to open the lightbox -->*/}
                 <Row className="galery">
                     <Col>
-                        <img src={KleistImg} alt="Kleist" onclick={this.handleShow()} />
+                        <img src={KleistImg} alt="Kleist" onClick={this.handleShow()} />
                     </Col>
                     {/*<Col>
                         <img src={SportImg} onclick="openModal();currentSlide(2)" className="hover-shadow" />
