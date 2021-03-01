@@ -40,7 +40,7 @@ h1{
   margin-right: 2px;
 }
 
-#insta img{
+.insta img{
   height: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -51,6 +51,7 @@ h1{
   height: 51px;
   border: 1px solid black;
   border-radius: 8px;
+  color: #0069D9;
 }
 
 a:link, a:visited {
@@ -80,3 +81,22 @@ a:link, a:visited {
   padding-bottom: 20px;
   margin-bottom: -20px;
 }
+
+.email {
+  position: relative;
+  top: 10px;
+  font-size: 40px;
+  
+}
+
+.phone {
+  position: relative;
+  font-size: 35px;
+  top: 7px;
+}
+
+#home {
+  width: 80px;
+  height: 80px;
+}
+

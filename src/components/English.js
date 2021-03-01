@@ -85,19 +85,22 @@ class English extends React.Component {
                 <hr />
                 <img src={Kyria} alt="Kyria" />
                 <p>
-                  I am an art school dropout and later studied Northamerican studies and French with a focus on literature and for the past ten years have been working
-                  as a radio host, freelance speaker, museum educator, writer and interpreter.
+                  I am an art school dropout and later studied Northamerican studies and French with a focus on literature and have been working as 
+                  a radio host, freelance speaker, museum educator, writer and interpreter for the past 10 years.
                 </p>
                 <p>
-                  After Covid my main income that from museums was just gone from one day to another, but it also gave me the final time and motivation to work on a
-                  walking tour that I had been thinking about offering each time I walked passed the park and the eclectic mix of hideous functional 50's architecture,
-                  the gorgeous Bauhaus buildings from the 20s, the royal Rococo leftovers of the
+                  After Covid my main income  that came  from guided tours in museums, was just gone from one day to another. But it also gave me 
+                  the final time and motivation to work on a walking tour that I had been thinking about for years. Each time I walked past 
+                  Kleistpark,  this eclectic mix of hideous functional 50`s architecture next to  gorgeous Bauhaus buildings from the 20s and the 
+                  royal baroque leftovers of the palace hit me like a ton of bricks. How come there are myriads of tours involving the most basic 
+                  buildings in Berlin one could read up on a travel guide from the 1960s but none that cover the real pearls of this city?
                 </p>
                 <p>
-                  If you read a biography about a writer you probably realized that writing and walking goes hand in hand. Hemingway was a big walker, so were Charles
-                  Dickens, Henry David Thoreau, Ernest Hemingway, Kate Chopin, Ralph Waldo Emerson and also contemporary writers like Delphine de Vigan chugs in a good… miles
-                  a day. I still love writing and aim to do It every day but in the tradition of the big writers I feel like it should be combined with walking. What
-                  better idea then to offer a walking tour at this special place?
+                If you read biographies of writers, you probably realized that writing and walking goes hand in hand. Hemingway was a big walker, 
+                so were Charles Dickens, Henry David Thoreau, Ernest Hemingway, Kate Chopin, Ralph Waldo Emerson and also contemporary writers like 
+                Delphine de Vigan. I still love writing and aim to do It every day but in the tradition of the big writers I feel like it should be 
+                combined with walking. What better idea then to offer a walking tour at this very special place named after the most underrated 
+                German writer?
                 </p>
               </Container>
             </Container>
