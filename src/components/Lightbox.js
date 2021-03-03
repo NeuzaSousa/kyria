@@ -22,7 +22,7 @@ class Lightbox extends React.Component {
         super(props);
           this.state = {
             show: false,
-            slideIndex: 1
+            slide: ""
           };
         };
     
@@ -34,24 +34,24 @@ class Lightbox extends React.Component {
 
     handleClose = (e) => {
         this.setState({
-            show: false
+            show: false,
         });
 
     }
 
     setSlide(e) {
         this.setState({
-            slideIndex: e
+            slide: e
         })
         this.handleShow();
-        console.log(this.state.slideIndex)
+        console.log(this.state.slide)
     };
 
     // Next/previous controls
-    plusSlides(n) {
+    //plusSlides(n) {
 
         //this.showSlides(slideIndex += n);
-    }
+    //}
   
   // Thumbnail image controls
     /*currentSlide(n) {
@@ -85,19 +85,22 @@ class Lightbox extends React.Component {
                 <Container fluid className="gallery">
                     <Row className="gallery">
                         <Col>
-                            <img src={KleistImg} alt="Kleist" onClick={(e) => this.setSlide(1)} className="hover-shadow" />
+                            <img src={KleistImg} alt="Kleist" onClick={(e) => this.setSlide("KleistImg")} className="hover-shadow" />
+                            Heinrich von Kleist
                         </Col>
                         <Col>
-                            <img src={SportImg} alt="Sportpalastrede" onClick={(e) => this.setSlide(2)} className="hover-shadow" />
+                            <img src={SportImg} alt="Sportpalastrede" onClick={(e) => this.setSlide("SportImg")} className="hover-shadow" />
+                            Sportpalast speech
                         </Col>
                         <Col>
-                            <img src={WirKinderImg} alt="WirKinder" onClick={(e) => this.setSlide(3)} className="hover-shadow" />
+                            <img src={WirKinderImg} alt="WirKinder" onClick={(e) => this.setSlide("WirKinderImg")} className="hover-shadow" />
+                            Christiane F. movie still
                         </Col>
                     </Row>
                     <Row>
-                        <Col><img src={PalasseumImg} alt="Palasseum" />Palasseum</Col>
-                        <Col><img src={Bowie1Img} alt="Bowie1" />David Bowie, 70s</Col>
-                        <Col><img src={HoffmannImg} alt="A drawing by ETA Hoffmann" />Drawing, ETA Hoffmanm</Col>
+                        <Col><img src={PalasseumImg} alt="Palasseum" onClick={(e) => this.setSlide("PalasseumImg")} className="hover-shadow" />Palasseum</Col>
+                        <Col><img src={Bowie1Img} alt="Bowie1" onClick={(e) => this.setSlide("Bowie1Img")} className="hover-shadow" />David Bowie, 70s</Col>
+                        <Col><img src={HoffmannImg} alt="A drawing by ETA Hoffmann" onClick={(e) => this.setSlide("HoffmannImg")} className="hover-shadow" />Drawing, ETA Hoffmanm</Col>
                     </Row>
                     <Row>
                         <Col><img src={GoebbelsImg} alt="Goebbels" />Goebbels</Col>
@@ -107,7 +110,7 @@ class Lightbox extends React.Component {
                 </Container>
 
                 <Modal show={this.state.show} onHide={(e) => this.handleClose(e)}>
-                    <Modal.Body><img src={KleistImg} /></Modal.Body> 
+                    <Modal.Body><img src={this.state.slide} /></Modal.Body> 
                     <Modal.Footer>
                             <Button variant="primary" onClick={(e) => this.handleClose(e)}>
                                 &times;
