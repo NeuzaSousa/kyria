@@ -1,20 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-//import Button from 'react-bootstrap/Button';
-//import Navbar from 'react-bootstrap/Navbar';
-//import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import KleistImg from './pictures/kleist.jpg';
-import SportImg from './pictures/sportpalastrede.jpg';
-import WirKinderImg from './pictures/wirkinder.jpg';
-import PalasseumImg from './pictures/palasseum.jpg';
-import Bowie1Img from './pictures/bowie1.jpg';
-import GoebbelsImg from './pictures/goebbels.jpg';
-import HoffmannImg from './pictures/hoffmann.jpg';
-import PoeImg from './pictures/poe.jpg';
-import Bowie2Img from './pictures/bowie2.jpg';
 import Kyria from './pictures/Kyria.jpg';
+import Lightbox from './Lightbox';
 
 class Deutsch extends React.Component {
     render() {
@@ -46,23 +33,7 @@ class Deutsch extends React.Component {
                     <li>Palasseum: Symbol für soziale Brennpunkte, zu sehen in unzähligen deutschen Rap videos, Bushido und auf dem Plattencover von Fler.</li>
                 </ul>
 
-                <div className="galery">
-                    <Row>
-                        <Col><img src={KleistImg} alt="Kleist" />Heinrich von Kleist</Col>
-                        <Col><img src={SportImg} alt="Sportpalast rede" />Sportpalast rede</Col>
-                        <Col><img src={WirKinderImg} alt="Wir Kinder von Bahnhofzoo" />Wir Kinder von Bahnhof Zoo bild</Col>
-                    </Row>
-                    <Row>
-                        <Col><img src={PalasseumImg} alt="Palasseum" />Palasseum</Col>
-                        <Col><img src={Bowie1Img} alt="Bowie1" />David Bowie, 70s</Col>
-                        <Col><img src={HoffmannImg} alt="A drawing by ETA Hoffmann" />Zeichnung, ETA Hoffmanm</Col>
-                    </Row>
-                    <Row>
-                        <Col><img src={GoebbelsImg} alt="Goebbels" />Goebbels</Col>
-                        <Col><img src={PoeImg} alt="Poe" />Zeichnung von Edgar Allen Poe book</Col>
-                        <Col><img src={Bowie2Img} alt="Bowie2" />David Bowie visiting Berlin</Col>
-                    </Row>
-                </div>
+                <Lightbox />
 
                 <Container fluid className="container3">
                     <h1 className="title">Über mich</h1>
@@ -72,7 +43,7 @@ class Deutsch extends React.Component {
                         Als ehemalige Studentin der bildenden Künste und
                         Nordamerikastudien/Französisch mit Schwerpunkt Literatur habe
                         ich die letzten Zehn Jahre als Gästeführerin in diversen Museen,
-                        Radio Moderatorin, -Sprecherin, Journalistin und Übersetzerin
+                        Radio Moderatorin, Sprecherin, Journalistin und Übersetzerin
                         gearbeitet.
                     </p>
                     <p>

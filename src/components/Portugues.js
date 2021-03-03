@@ -1,22 +1,7 @@
 import React from 'react';
-//import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
-//import Button from 'react-bootstrap/Button';
-//import Navbar from 'react-bootstrap/Navbar';
-//import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import KleistImg from './pictures/kleist.jpg';
-import SportImg from './pictures/sportpalastrede.jpg';
-import WirKinderImg from './pictures/wirkinder.jpg';
-import PalasseumImg from './pictures/palasseum.jpg';
-import Bowie1Img from './pictures/bowie1.jpg';
-import GoebbelsImg from './pictures/goebbels.jpg';
-import HoffmannImg from './pictures/hoffmann.jpg';
-import PoeImg from './pictures/poe.jpg';
-import Bowie2Img from './pictures/bowie2.jpg';
 import Kyria from './pictures/Kyria.jpg';
-//import { Redirect } from 'react-router-dom';
+import Lightbox from './Lightbox';
 
 class Portugues extends React.Component {
     render() {
@@ -33,7 +18,7 @@ class Portugues extends React.Component {
                     <li>Os lugares que frequentava Christiane F.</li>
                     <li>Frederico II da Prússia e as ruínas do Palácio</li>
                     <li>O discurso no Sportpalast de Goebbels</li>
-                    <li>Roland Freisler,  o juíz sanguinário mais conhecido no Terceiro Reich que trabalhava no Supremo Tribunal Federal e os 
+                    <li>Roland Freisler, o juíz sanguinário mais conhecido no Terceiro Reich que trabalhava no Supremo Tribunal Federal e os 
                     seus processos</li>
                     <li>A concepção do parque e a função de Adalbert Chamisso</li>
                     <li>Heinrich von Kleist</li>
@@ -41,23 +26,7 @@ class Portugues extends React.Component {
                     <li>O Palasseum e os começos do Gangsta Rap alemao com Aggro Berlin…</li>
                 </ul>
 
-                <div className="galery">
-                    <Row>
-                        <Col><img src={KleistImg} alt="Kleist" />Heinrich von Kleist</Col>
-                        <Col><img src={SportImg} alt="Sportpalast rede" />Discurso no Sportpalast</Col>
-                        <Col><img src={WirKinderImg} alt="Wir Kinder von Bahnhofzoo" />Imagem do filme "Christiane F."</Col>
-                    </Row>
-                    <Row>
-                        <Col><img src={PalasseumImg} alt="Palasseum" />Palasseum</Col>
-                        <Col><img src={Bowie1Img} alt="Bowie1" />David Bowie, 70s</Col>
-                        <Col><img src={HoffmannImg} alt="A drawing by ETA Hoffmann" />Desenho, ETA Hoffmanm</Col>
-                    </Row>
-                    <Row>
-                        <Col><img src={GoebbelsImg} alt="Goebbels" />Goebbels</Col>
-                        <Col><img src={PoeImg} alt="Poe" />Desenho num livro de Edgar Allen Poe</Col>
-                        <Col><img src={Bowie2Img} alt="Bowie2" />David Bowie visitando Berlin</Col>
-                    </Row>
-                </div>
+                <Lightbox />
 
                 <Container fluid className="container3">
                 <h1 className="title">Sobre mim</h1>

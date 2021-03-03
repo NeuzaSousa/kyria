@@ -1,20 +1,8 @@
 import React from 'react';
-//import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
-//import Navbar from 'react-bootstrap/Navbar';
-//import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import KleistImg from './pictures/kleist.jpg';
-import SportImg from './pictures/sportpalastrede.jpg';
-import WirKinderImg from './pictures/wirkinder.jpg';
-import PalasseumImg from './pictures/palasseum.jpg';
-import Bowie1Img from './pictures/bowie1.jpg';
-import GoebbelsImg from './pictures/goebbels.jpg';
-import HoffmannImg from './pictures/hoffmann.jpg';
-import PoeImg from './pictures/poe.jpg';
-import Bowie2Img from './pictures/bowie2.jpg';
 import Kyria from './pictures/Kyria.jpg';
+import Lightbox from './Lightbox';
+
 
 
 
@@ -53,32 +41,15 @@ class English extends React.Component {
                 <li>Goebbels and his infamous sport palace speech</li>
                 <li>Roland Freisler: judge who basically set in motion the Holocaust and is 
                   responsible for the sentencing of countless people including
-                  <em> Stauffenberg</em>(Operation Valkyria) and the members of the <em>weiße Rose</em></li>
+                  <em> Stauffenberg </em>(Operation Valkyria) and the members of the <em>weiße Rose</em></li>
                 <li>The design of the park</li>
                 <li> The Supreme Court and its dealing of the most recent terrorist attacks in 
                   Germany such as the attacks on <em>Breitscheidplatz</em></li>
                 <li>The architecture of the <em>Pallasseum</em> and its cultural significance 
                   in German Rap music</li>
               </ul>
-    
-              <div className="gallery">
-                <Row>
-                  <Col><img src={KleistImg} alt="Kleist" onClick={() => this.openImg()} />Heinrich von Kleist</Col>
-                  <Col><img src={SportImg} alt="Sportpalast rede" />Sportpalast speech</Col>
-                  <Col><img src={WirKinderImg} alt="Wir Kinder von Bahnhofzoo" />Christiane F. movie still</Col>
-                </Row>
-                <Row>
-                  <Col><img src={PalasseumImg} alt="Palasseum" />Palasseum</Col>
-                  <Col><img src={Bowie1Img} alt="Bowie1" />David Bowie, 70s</Col>
-                  <Col><img src={HoffmannImg} alt="A drawing by ETA Hoffmann" />Drawing, ETA Hoffmanm</Col>
-                </Row>
-                <Row>
-                  <Col><img src={GoebbelsImg} alt="Goebbels" />Goebbels</Col>
-                  <Col><img src={PoeImg} alt="Poe" />Drawing from Edgar Allen Poe book</Col>
-                  <Col><img src={Bowie2Img} alt="Bowie2" />David Bowie visiting Berlin</Col>
-                </Row>
-              </div>
               
+              <Lightbox />
 
               <Container fluid className="container3">
                 <h1 className="title">About me</h1>
