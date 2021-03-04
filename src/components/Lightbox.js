@@ -86,7 +86,7 @@ class Lightbox extends React.Component {
                     </Row>
                 </Container>
 
-                <Modal show={this.state.show} onHide={(e) => this.handleClose(e)} size="lg">
+                <Modal show={this.state.show} onHide={(e) => this.handleClose(e)}>
                     <Modal.Body><img src={this.state.slide} alt='' /></Modal.Body> 
                     <Modal.Footer>
                             <Button variant="primary" onClick={(e) => this.handleClose(e)}>
