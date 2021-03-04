@@ -63,7 +63,7 @@ class Lightbox extends React.Component {
                     </Row>
                     <Row>
                         <Col>
-                            <img src={PoeImg} alt="Poe" onClick={(e) => this.setSlide(PoeImg)} className="hover-shadow" />Drawing from Edgar Allen Poe book
+                            <img src={PoeImg} alt="Poe" onClick={(e) => this.setSlide(PoeImg)} className="hover-shadow" />Drawing, Edgar A. Poe book
                         </Col>
                         <Col>
                             <img src={Bowie1Img} alt="Bowie1" onClick={(e) => this.setSlide(Bowie1Img)} className="hover-shadow" />David Bowie, 70s

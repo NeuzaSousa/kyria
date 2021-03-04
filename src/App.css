@@ -31,6 +31,10 @@ h1{
   text-align: justify;
 }
 
+.container4 {
+  max-width: 550px;
+}
+
 #flags{
   text-align: right;
 }
@@ -61,7 +65,7 @@ a:link, a:visited {
 }
 
 .title {
-  padding-top:40px;
+  padding-top:120px;
 }
 
 .list {
@@ -90,5 +94,11 @@ a:link, a:visited {
 #email-address {
   position: relative;
   bottom: 14px;
+}
+
+.insta {
+  padding-top: 40px;
+  /*width: 1000px;
+  text-align: center;*/
 }
 

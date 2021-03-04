@@ -51,14 +51,16 @@ class App extends React.Component {
           <Error404View />
         </Switch>
 
-        <Row className="insta">
-          <Col>
-            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" />@operation_walkyria</a>
-          </Col>
-          <Col>
-            <span id="email">&#9993;</span><span id="email-address">kyria.sobrinho@gmail.com</span>
-          </Col>
-        </Row>
+        <Container fluid className="container4">
+          <Row className="insta">
+            <Col>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" />@operation_walkyria</a>
+            </Col>
+            <Col>
+              <span id="email">&#9993;</span><span id="email-address">kyria.sobrinho@gmail.com</span>
+            </Col>
+          </Row>
+        </Container>
 
         <p className="bottom">&#169; 2021 Kyria Sobrinho</p>
       </Container>
