@@ -3,9 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Kyria from './pictures/Kyria.jpg';
 import Lightbox from './Lightbox';
 
-
-
-
 class English extends React.Component {
   
   openImg() {
