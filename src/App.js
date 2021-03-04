@@ -29,10 +29,11 @@ class App extends React.Component {
         <div id="flags">
           <Dropdown>
             <Dropdown.Toggle id="dropdown-basic">
-              <Link to="/english"><img src={EnglishImg} alt="English" />EN</Link>
+              Language
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
+              <Dropdown.Item><Link to="/english"><img src={EnglishImg} alt="English" />EN</Link></Dropdown.Item>
               <Dropdown.Item><Link to="/deutsch"><img src={GermanImg} alt="Deutsch" />DE</Link></Dropdown.Item>
               <Dropdown.Item><NavLink to="/francais"><img src={FrenchImg} alt="Français" />FR</NavLink></Dropdown.Item>
               <Dropdown.Item><NavLink to="/portugues"><img src={PortugueseImg} alt="Portugues" />PT</NavLink></Dropdown.Item>

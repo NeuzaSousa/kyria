@@ -38,7 +38,7 @@ class English extends React.Component {
                 <li>Goebbels and his infamous sport palace speech</li>
                 <li>Roland Freisler: judge who basically set in motion the Holocaust and is 
                   responsible for the sentencing of countless people including
-                  <em> Stauffenberg </em>(Operation Valkyria) and the members of the <em>weiße Rose</em></li>
+                  <em> Stauffenberg </em>(Operation Valkyrie) and the members of the <em>weiße Rose</em></li>
                 <li>The design of the park</li>
                 <li> The Supreme Court and its dealing of the most recent terrorist attacks in 
                   Germany such as the attacks on <em>Breitscheidplatz</em></li>
