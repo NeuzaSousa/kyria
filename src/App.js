@@ -15,6 +15,8 @@ import Error404View from './components/Error404View';
 
 import Container from 'react-bootstrap/Container';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { Switch, Route, NavLink, Link } from "react-router-dom";
 import { Redirect } from 'react-router-dom';
 
@@ -49,10 +51,14 @@ class App extends React.Component {
           <Error404View />
         </Switch>
 
-        <div className="insta">
-          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" />@operation_walkyria</a>
-          <span className="email">&#9993;</span><span>kyria.sobrinho@gmail.com</span>
-        </div>
+        <Row className="insta">
+          <Col>
+            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" />@operation_walkyria</a>
+          </Col>
+          <Col>
+            <span id="email">&#9993;</span><span id="email-address">kyria.sobrinho@gmail.com</span>
+          </Col>
+        </Row>
 
         <p className="bottom">&#169; 2021 Kyria Sobrinho</p>
       </Container>

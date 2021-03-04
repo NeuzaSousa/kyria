@@ -6,10 +6,10 @@
     display: block;
 }
 
-.none {
-  display: none;
-}
+.Gallery {
+  margin: 0 auto;
+  text-align: center;
 
-.modal {
-  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

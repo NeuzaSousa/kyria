@@ -49,14 +49,12 @@ class Lightbox extends React.Component {
             <Container fluid className="container2">
                 
                 <Container fluid className="gallery">
-                    <Row className="gallery">
+                    <Row>
                         <Col>
-                            <img src={KleistImg} alt="Kleist" onClick={(e) => this.setSlide(KleistImg)} className="hover-shadow" />
-                            Heinrich von Kleist
+                            <img src={KleistImg} alt="Kleist" onClick={(e) => this.setSlide(KleistImg)} className="hover-shadow" />Heinrich von Kleist
                         </Col>
                         <Col>
-                            <img src={SportImg} alt="Sportpalastrede" onClick={(e) => this.setSlide(SportImg)} className="hover-shadow" />
-                            Sportpalast speech
+                            <img src={Bowie2Img} alt="Bowie2" onClick={(e) => this.setSlide(Bowie2Img)} className="hover-shadow" />David Bowie visiting Berlin
                         </Col>
                         <Col>
                             <img src={WirKinderImg} alt="WirKinder" onClick={(e) => this.setSlide(WirKinderImg)} className="hover-shadow" />
@@ -64,14 +62,27 @@ class Lightbox extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col><img src={PalasseumImg} alt="Palasseum" onClick={(e) => this.setSlide(PalasseumImg)} className="hover-shadow" />Palasseum</Col>
-                        <Col><img src={Bowie1Img} alt="Bowie1" onClick={(e) => this.setSlide(Bowie1Img)} className="hover-shadow" />David Bowie, 70s</Col>
-                        <Col><img src={HoffmannImg} alt="A drawing by ETA Hoffmann" onClick={(e) => this.setSlide(HoffmannImg)} className="hover-shadow" />Drawing, ETA Hoffmanm</Col>
+                        <Col>
+                            <img src={PoeImg} alt="Poe" onClick={(e) => this.setSlide(PoeImg)} className="hover-shadow" />Drawing from Edgar Allen Poe book
+                        </Col>
+                        <Col>
+                            <img src={Bowie1Img} alt="Bowie1" onClick={(e) => this.setSlide(Bowie1Img)} className="hover-shadow" />David Bowie, 70s
+                        </Col>
+                        <Col>
+                            <img src={HoffmannImg} alt="A drawing by ETA Hoffmann" onClick={(e) => this.setSlide(HoffmannImg)} className="hover-shadow" />Drawing, ETA Hoffmanm
+                        </Col>
                     </Row>
                     <Row>
-                        <Col><img src={GoebbelsImg} alt="Goebbels" onClick={(e) => this.setSlide(GoebbelsImg)} className="hover-shadow" />Goebbels</Col>
-                        <Col><img src={PoeImg} alt="Poe" onClick={(e) => this.setSlide(PoeImg)} className="hover-shadow" />Drawing from Edgar Allen Poe book</Col>
-                        <Col><img src={Bowie2Img} alt="Bowie2" onClick={(e) => this.setSlide(Bowie2Img)} className="hover-shadow" />David Bowie visiting Berlin</Col>
+                        <Col>
+                            <img src={GoebbelsImg} alt="Goebbels" onClick={(e) => this.setSlide(GoebbelsImg)} className="hover-shadow" />Goebbels
+                        </Col>
+                        <Col>
+                            <img src={PalasseumImg} alt="Palasseum" onClick={(e) => this.setSlide(PalasseumImg)} className="hover-shadow" />Palasseum
+                        </Col>
+                        <Col>
+                            <img src={SportImg} alt="Sportpalastrede" onClick={(e) => this.setSlide(SportImg)} className="hover-shadow" />
+                            Sportpalast speech
+                        </Col>
                     </Row>
                 </Container>
 
