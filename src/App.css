@@ -86,14 +86,14 @@ a:link, a:visited {
 }
 
 #email {
-  font-size: 35px;
+  font-size: 40px;
   position: relative;
   bottom: 7px;
 }
 
 #email-address {
   position: relative;
-  bottom: 14px;
+  bottom: 7px;
 }
 
 .insta {
