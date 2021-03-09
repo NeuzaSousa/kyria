@@ -59,7 +59,7 @@ class English extends React.Component {
                 <p>
                   After Covid my main income  that came  from guided tours in museums, was just gone from one day to another. But it also gave me 
                   the final time and motivation to work on a walking tour that I had been thinking about for years. Each time I walked past 
-                  Kleistpark,  this eclectic mix of hideous functional 50`s architecture next to  gorgeous Bauhaus buildings from the 20s and the 
+                  Kleistpark,  this eclectic mix of hideous functional 50's architecture next to  gorgeous Bauhaus buildings from the 20s and the 
                   royal baroque leftovers of the palace hit me like a ton of bricks. How come there are myriads of tours involving the most basic 
                   buildings in Berlin one could read up on a travel guide from the 1960s but none that cover the real pearls of this city?
                 </p>

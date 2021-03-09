@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
 import KleistImg from './pictures/kleist.jpg';
 import SportImg from './pictures/sportpalastrede.jpg';
 import WirKinderImg from './pictures/wirkinder.jpg';
@@ -87,12 +86,9 @@ class Lightbox extends React.Component {
                 </Container>
 
                 <Modal show={this.state.show} onHide={(e) => this.handleClose(e)}>
+                    <Modal.Header closeButton />
                     <Modal.Body><img src={this.state.slide} alt='' /></Modal.Body> 
-                    <Modal.Footer>
-                            <Button variant="primary" onClick={(e) => this.handleClose(e)}>
-                                &times;
-                            </Button>
-                    </Modal.Footer>
+
                 </Modal>
 
             </Container>

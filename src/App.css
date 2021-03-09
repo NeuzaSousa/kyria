@@ -93,12 +93,10 @@ a:link, a:visited {
 
 #email-address {
   position: relative;
-  bottom: 7px;
+  bottom: 14px;
 }
 
 .insta {
   padding-top: 40px;
-  /*width: 1000px;
-  text-align: center;*/
 }
 
