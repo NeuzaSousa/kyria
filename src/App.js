@@ -55,10 +55,10 @@ class App extends React.Component {
         <Container fluid className="container4">
           <Row className="insta">
             <Col>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" />@operation_walkyria</a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" /><br />@operation_walkyria</a>
             </Col>
             <Col>
-              <span id="email">&#9993;</span><span id="email-address">&#x20; kyria.sobrinho@gmail.com</span>
+              <span id="email">&#9993;</span><span id="email-address"><br /> kyria.sobrinho@gmail.com</span>
             </Col>
           </Row>
         </Container>
