@@ -66,7 +66,7 @@ class English extends React.Component {
                 <p>
                 If you read biographies of writers, you probably realized that writing and walking goes hand in hand. Hemingway was a big walker, 
                 so were Charles Dickens, Henry David Thoreau, Ernest Hemingway, Kate Chopin, Ralph Waldo Emerson and also contemporary writers like 
-                Delphine de Vigan. I still love writing and aim to do It every day but in the tradition of the big writers I feel like it should be 
+                Delphine de Vigan. I still love writing and aim to do it every day but in the tradition of the big writers I feel like it should be 
                 combined with walking. What better idea then to offer a walking tour at this very special place named after the most underrated 
                 German writer?
                 </p>
