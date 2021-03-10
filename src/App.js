@@ -58,12 +58,12 @@ class App extends React.Component {
               <a target="_blank" rel="noreferrer" href="https://www.instagram.com/operation_walkyria/"><img src={InstaImg} alt="Instagram" />@operation_walkyria</a>
             </Col>
             <Col>
-              <span id="email">&#9993;</span><span id="email-address">U+0020 kyria.sobrinho@gmail.com</span>
+              <span id="email">&#9993;</span><span id="email-address">&#x20; kyria.sobrinho@gmail.com</span>
             </Col>
           </Row>
         </Container>
 
-        <p className="bottom">&#x20; 2021 Kyria Sobrinho</p>
+        <p className="bottom">&#169; 2021 Kyria Sobrinho</p>
       </Container>
     );
   }
