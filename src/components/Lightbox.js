@@ -50,7 +50,7 @@ class Lightbox extends React.Component {
                 <Container fluid className="gallery">
                     <Row>
                         <Col>
-                            <img src={KleistImg} alt="Kleist" onClick={(e) => this.setSlide(KleistImg)} className="hover-shadow" />Heinrich von Kleist
+                            <img src={KleistImg} alt="Kleist" onClick={(e) => this.setSlide(KleistImg)} className="img-responsive" />Heinrich von Kleist
                         </Col>
                         <Col>
                             <img src={Bowie2Img} alt="Bowie2" onClick={(e) => this.setSlide(Bowie2Img)} className="hover-shadow" />David Bowie visiting Berlin
@@ -85,7 +85,7 @@ class Lightbox extends React.Component {
                     </Row>
                 </Container>
 
-                <Modal show={this.state.show} onHide={(e) => this.handleClose(e)}>
+                <Modal className="modal-dialog" show={this.state.show} onHide={(e) => this.handleClose(e)}>
                     <Modal.Header closeButton />
                     <Modal.Body><img src={this.state.slide} alt='' /></Modal.Body> 
 

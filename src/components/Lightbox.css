@@ -5,3 +5,22 @@
 .block {
     display: block;
 }
+
+.modal-dialog {
+    height: 100%;
+    width: 200px;
+    max-width: 100%;
+    margin: 0px auto;
+    overflow-y: auto;
+}
+
+/*.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow: auto;
+}*/
+
+/*.modal-body img {
+    display: block;
+    width: auto;
+    max-height: 100%
+}*/
