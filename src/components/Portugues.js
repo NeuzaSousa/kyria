@@ -7,6 +7,7 @@ class Portugues extends React.Component {
     render() {
         return (
             <Container fluid className="container2">
+                <h2>Um Pequeno Parque, 500 anos de História de Berlím</h2>
                 <p>A visita guiada inclui 300 anos de História, com um foco especial na II Guerra Mundial e as ícones dos anos setenta:  
                     <strong> David Bowie</strong>, <strong>Iggy Pop</strong>, <strong>Christiane F</strong>. (Eu, Christiane F., 13 Anos, Drogada, Prostituida)</p>
  

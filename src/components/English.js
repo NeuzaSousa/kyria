@@ -14,6 +14,7 @@ class English extends React.Component {
     render() {
         return (
             <Container fluid className="container2">
+              <h2>A little park, 500 years of Berlin history</h2>
               <p>
                 The tour encompasses 300 years of German history, with special focus on World War 
                 II and the wild 70s when Music and Pop Culture Icons like <strong>David 
