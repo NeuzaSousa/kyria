@@ -21,29 +21,30 @@ class Deutsch extends React.Component {
                 </p>
 
  
-                <ul>
-                    David Bowie und sein Leben in Berlin
+                <ul className="list">
 
-                    Iggy „The idiot“ Pop
+                    <li>David Bowie und sein Leben in Berlin</li>
 
-                    Christiane F. , mehr als nur eine berühmte Drogensüchtige
+                    <li>Iggy „The idiot“ Pop</li>
 
-                    Friedrich der Große und die Reste des originalen Berliner Schlosses
+                    <li>Christiane F. , mehr als nur eine berühmte Drogensüchtige</li>
 
-                    Goebbels Sportpalastrede: „Wollt ihr den totalen Krieg“
+                    <li>Friedrich der Große und die Reste des originalen Berliner Schlosses</li>
 
-                    Schauprozesse gegen die Hitler Attentäter Stauffenberg und seine Mitverschwörer (Operation Walküre engl. Valkyrie)
+                    <li>Goebbels Sportpalastrede: „Wollt ihr den totalen Krieg“</li>
 
-                    Der königliche botanische Garten und der heutige Park
+                    <li>Schauprozesse gegen die Hitler Attentäter Stauffenberg und seine Mitverschwörer (Operation Walküre engl. Valkyrie)</li>
 
-                    Adelbert von Chamisso, Autor von Peter Shlemihls wundersame Geschichte
+                    <li>Der königliche botanische Garten und der heutige Park</li>
 
-                    Heinrich von Kleist, dessen dichterisches Genie selbst Goethe neidisch machte
+                    <li>Adelbert von Chamisso, Autor von Peter Shlemihls wundersame Geschichte</li>
 
-                    Das Kammergericht heute und seine Prozesse (u.a. Terroranschlag Breitscheidplatz, 2016)
+                    <li>Heinrich von Kleist, dessen dichterisches Genie selbst Goethe neidisch machte</li>
 
-                    Palasseum, Sozialwohnungsprojekt der 70er (gebaut über dem Sportpalastbunker) Symbol für soziale Brennpunkte, zu sehen in unzähligen deutschen Rap-Videos u.a. von Bushido und Fler.
-            </ul>
+                    <li>Das Kammergericht heute und seine Prozesse (u.a. Terroranschlag Breitscheidplatz, 2016)</li>
+
+                    <li>Palasseum, Sozialwohnungsprojekt der 70er (gebaut über dem Sportpalastbunker) Symbol für soziale Brennpunkte, zu sehen in unzähligen deutschen Rap-Videos u.a. von Bushido und Fler.</li>
+                </ul>
 
                 <Lightbox />
 
