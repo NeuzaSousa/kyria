@@ -9,7 +9,7 @@ class Francais extends React.Component {
             <Container fluid className="container2">
                 <h2>Un Pétit Parque, 500 Ans d´Histoire de Berlin</h2>
                 <p>
-                    La visite couvre 300 ans d’histoire allemande avec un accent sur la deuxième guerre mondiale et les icônes des années 70 à Berlin : <strong>David Bowie</strong>, <strong>Iggy Pop</strong>, <strong>Christiane F</strong> du livre Moi, Christiane F., 13 ans, droguée, prostituée… Avec les groupes privés, il est possible de se concentrer spécifiquement sur certains en fonction des envies.
+                    La visite couvre 500 ans d’histoire allemande avec un accent sur la deuxième guerre mondiale et les icônes des années 70 à Berlin : <strong>David Bowie</strong>, <strong>Iggy Pop</strong>, <strong>Christiane F</strong> du livre Moi, Christiane F., 13 ans, droguée, prostituée… Avec les groupes privés, il est possible de se concentrer spécifiquement sur certains en fonction des envies.
                     Les stations sont normalement:
                 </p>
                 <ul className="list">

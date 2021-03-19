@@ -16,7 +16,7 @@ class English extends React.Component {
             <Container fluid className="container2">
               <h2>A little park, 500 years of Berlin history</h2>
               <p>
-                The tour encompasses 300 years of German history, with special focus on World War 
+                The tour encompasses 500 years of German history, with special focus on World War 
                 II and the wild 70s when Music and Pop Culture Icons like <strong>David 
                 Bowie</strong>, <strong>Iggy Pop</strong> or <strong>Christiane F.</strong> ran 
                 the streets of <em>Schöneberg</em> looking for inspiration, fame, drugs and 

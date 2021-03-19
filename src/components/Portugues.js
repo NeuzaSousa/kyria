@@ -8,7 +8,7 @@ class Portugues extends React.Component {
         return (
             <Container fluid className="container2">
                 <h2>Um Pequeno Parque, 500 anos de História de Berlím</h2>
-                <p>A visita guiada inclui 300 anos de História, com um foco especial na II Guerra Mundial e as ícones dos anos setenta:  
+                <p>A visita guiada inclui 500 anos de História, com um foco especial na II Guerra Mundial e as ícones dos anos setenta:  
                     <strong> David Bowie</strong>, <strong>Iggy Pop</strong>, <strong>Christiane F</strong>. (Eu, Christiane F., 13 Anos, Drogada, Prostituida)</p>
  
                 <p>Com grupos particulares, eu posso focalizar a visita como queiram nos seguintes temas</p>
