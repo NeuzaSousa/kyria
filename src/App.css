@@ -83,12 +83,6 @@ a:link, a:visited {
   padding-top: 100px;
 }
 
-.bottom {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-bottom: -20px;
-}
-
 #email {
   font-size: 40px;
   position: relative;
@@ -102,5 +96,14 @@ a:link, a:visited {
 
 .insta {
   padding-top: 40px;
+}
+
+.bottom {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  background-color: #0069D9;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
